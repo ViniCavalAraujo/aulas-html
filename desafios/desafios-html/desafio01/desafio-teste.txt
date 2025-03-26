@@ -1,7 +1,0 @@
-fazer um exercício contendo tudo o que já aprendi até agora :
-
-imagens
-listas
-links externos e internos
-favicon
-tags semânticas
