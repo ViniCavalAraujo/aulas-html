@@ -1,0 +1,60 @@
+    @charset "UTF-8";
+
+    /* fontes externas */
+    @font-face {
+        font-family: 'red-hands';
+        src: url('fontes/KGRedHands.ttf') format('truetype')
+        ;
+    }
+    @font-face{
+        font-family: 'film noir';
+        src: url('fontes/Film Noir Adventure.ttf') format('truetype');
+    }
+    @font-face{
+        font-family:'kgperfect';
+        src: url('fontes/KGPerfectPenmanship.otf') format('opentype');
+    }
+
+    body{
+        background-image: linear-gradient(to bottom, #D5CAB1, #CCAC93);
+
+        /* Faz com que o fundo fique fixo na tela, mesmo ao rolar a página */
+        background-attachment: fixed;
+       
+    }
+
+
+    h1{
+        text-align: center;
+        color: #786207;
+        font-family: 'red-hands', Arial, Helvetica;
+        text-shadow: 1px 1px 1px #967a0a9b;
+    }
+
+    h2{
+        color: #5f5738;
+    }
+
+
+    #id-sub{
+        text-align: center;
+        font-family: 'film noir', Arial, Helvetica;
+        
+    }
+
+    .corpo{
+        text-align: center;
+        font-family: 'film noir', Arial, Helvetica;
+        
+        
+    }
+
+    .principal{
+        font-family: 'kgperfect', Arial, Helvetica;
+        text-align: center;
+
+    }
+
+    .destaque{
+        text-decoration: underline;
+    }
